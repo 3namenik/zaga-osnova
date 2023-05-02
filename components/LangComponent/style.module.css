@@ -1,0 +1,18 @@
+.lang {
+    padding-left: 49px;
+    width: 90px;
+}
+.lang_items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.lang_item_text {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .lang {
+        display: none;
+    }
+}

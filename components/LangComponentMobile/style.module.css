@@ -1,0 +1,20 @@
+.lang_mobile {
+    display: none;
+}
+.lang_items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90px;
+}
+.lang_item_text {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .lang_mobile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,42 @@
+.mass_media_items {
+    /* display: flex; */
+}
+.mass_media_item {
+    max-width: 505px;
+}
+.mass_media_title {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mass_media_container {
+    /* padding: 0 176px 170px 176px; */
+}
+.mass_media_text_title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 33px;
+    margin-top: 20px;
+}
+.mass_media_text_desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1199px) {
+    .mass_media_item {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 764px) {
+    .mass_media_title {
+        font-size: 30px;
+    }
+}
