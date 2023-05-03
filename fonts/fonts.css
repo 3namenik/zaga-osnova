@@ -31,3 +31,22 @@
     font-weight: 700;
     font-display: swap;
 }
+
+/* Micra */
+
+@font-face {
+    font-family: "Micra";
+    src: url("./Micra/micra.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Micra";
+    font-weight: 700;
+    font-style: normal;
+    src: url(./Micra/Micra-Bold.ttf);
+}
+
+/* end Micra */

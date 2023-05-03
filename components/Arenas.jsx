@@ -16,10 +16,14 @@ const Arenas = () => {
   return (
     <>
       {/* {show4 ? <Form1 classes='form-block active' h2={dataForm[3].h2} h3={dataForm[3].h3} button={dataForm[3].button} /> : <Form1 classes='form-block' />} */}
-        <div id="arenas">
+        <div id="arenas" className="m-bottom">
         <div className="container arenas-block">
-            <div className="h2">ZAGA-GAME Арены</div>
-            <div className="h3 h3-title">По всей России и СНГ у нас открыто уже 30 арен, до<br /> конца 2023 года планируются открыть 40 арен.<br /> Следующая арена может быть и в вашем городе!</div>
+            <div className="arenas-block__title">
+                <div className="h2">ZAGA-GAME Арены</div>
+            </div>
+            <div className="arenas-block__desc">
+                По всей России и СНГ у нас открыто уже 30 арен, до<br /> конца 2023 года планируются открыть 40 арен.<br /> Следующая арена может быть и в вашем городе!
+            </div>
             <div className="map-flex">
                 <div className="map-img">
                 <svg width="390" height="272" viewBox="0 0 390 272" fill="none" xmlns="http://www.w3.org/2000/svg">

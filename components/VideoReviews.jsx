@@ -13,26 +13,13 @@ const VideoBlock = () => {
     centerPadding: '20%',
     responsive: [
       {
-          breakpoint: 766,
-          settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true,
-              arrows: false
-          }
-      },
-      {
-        breakpoint: 426,
+        breakpoint: 766,
         settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true,
-            arrows: false,
-            centerPadding: '18%'
+          arrows: false,
+          centerMode: false,
+          centerPadding: 0,
         }
-    },
+      },
   ]}
 
     // const onPlayerReady = (event) => {
@@ -52,21 +39,19 @@ const VideoBlock = () => {
 
   return (
     <>
-      <div id="video" className="m-bottom">
-
+      <div id="videoReviews" className="sliderNew">
+        <div className="container">
+          <div className="h2">Отзывы наших партнеров</div>
+        </div>
         {/* <YouTube videoId="uBQMH3vyvRM" opts={opts} onReady={onPlayerReady} /> */}
         <Slider {...settings}>
-          <div className='container video-block'>
+          <div className='video-block'>
             <Youtube width="100%" height="474px" imgSize="maxresdefault" videoId="5lAK8bgGkaE"/>
           </div>
-          <div className='container video-block'>
+          <div className='video-block'>
             <Youtube width="100%" height="474px" imgSize="maxresdefault" videoId="uBQMH3vyvRM"/>
           </div>
         </Slider>
-        
-
-
-
       </div>
     </>
   )

@@ -96,17 +96,30 @@
     content: '';
     position: absolute;
     top: 0;
-    left: -100%;
-    width: 200%;
-    height: 100%;
-    background: #70358F;
-    transition: .7s ease;
-  }
-  .header-button:hover:before{
     left: 0;
-    background: #521771;
+    bottom: 0;
+    right: 0;
+    background-color: #70358F;
+    background-image: linear-gradient(88.37deg, #64398E 20.21%, #2F49D3 102.29%);
     transition: .7s ease;
   }
+  .header-button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #70358F;
+    background-image: linear-gradient(-88.37deg, #64398E 20.21%, #2F49D3 102.29%);
+    transition: .7s ease;
+    opacity: 0;
+  }
+
+  .header-button:hover:after {
+    opacity: 1;
+  }
+
   .header-button-text{
     position: relative;
     display: flex;
@@ -115,12 +128,6 @@
     gap: 10px;
     text-align: left;
     font-family: 'Gilroy';
+    z-index: 1;
   }
 
-  .numbers-block .header-button:before {
-    background: linear-gradient(120.01deg, #E32966 16.64%, #70358F 70.48%, #1B253F 124.96%);
-  }
-
-  .numbers-block .header-button:hover:before {
-    background: linear-gradient(240.01deg, #E32966 16.64%, #70358F 70.48%, #1B253F 124.96%);
-  }

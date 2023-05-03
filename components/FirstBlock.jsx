@@ -20,11 +20,11 @@ const FirstBlock = (props) => {
     return (
         <>
         {/* {show ? <Form1 classes='form-block active' h2={dataForm[0].h2} h3={dataForm[0].h3} button={dataForm[0].button} /> : <Form1 classes='form-block' />} */}
-            <div className="firstBlock">
+            <div className="firstBlock m-bottom">
                 <div className="container first-block">
                     <div className="complect">
                         <div className="title">
-                            <span><span className="titlePurple">Не франшиза</span> VR-арен<br /> ZAGA-GAME под ключ!</span>
+                            <span>Франшиза VR-арен<br /> <span className="bg-white"><span className="gradient">ZAGA-GAME</span></span> под ключ!</span>
                         </div>
                         <div className="subtitle">
                             {/* <span>Успешный бизнес <span className='color-red fw-800'>с доходом до 5 млн. руб.</span><br /> в сфере виртуальной реальности</span> */}

@@ -13,7 +13,7 @@ import img9 from '../images/our_photos/9.webp'
 const Photos = () => {
   return (
     <>
-      <div id="photos">
+      <div id="photos" className="sliderNew">
       <div className="container photos-block">
             <div className="h2">Наши фотографии</div>
         </div>

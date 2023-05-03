@@ -23,11 +23,11 @@ const JoinUs = () => {
   return (
     <>
       {/* {show ? <Form1 classes='form-block active' h2={dataForm[0].h2} h3={dataForm[0].h3} button={dataForm[0].button} /> : <Form1 classes='form-block' />} */}
-        <div id="join-us">
-        <div className="container joinUs-block">
+        <div id="join-us" className="m-bottom">
+        <div className="joinUs-block">
             <div className='joinUs-left'>
                 <div className="h2">Присоединяйтесь!</div>
-                <div className="h3">Узнайте подробные условия о открытии своей арены в виртуальной реальности</div>
+                <div className="joinUs-left__text">Узнайте подробные условия о открытии своей арены в виртуальной реальности</div>
                 <a className="phone" href="tel:8 (800) 500-40-17" onClick={yandexMetrikaPhone}>8 (800) 500-40-17</a>
                 <div className="email" ><a href="mailto:info@zaga-game.com" onClick={yandexMetrikaEmail}>info@zaga-game.com</a></div>
                 <div className="address">г. Москва, метро Румянцево, БЦ РУМЯНЦЕВО, блок Г, офис 705Г</div>
@@ -50,11 +50,7 @@ const JoinUs = () => {
                 </button>
             </div>
             <div className='joinUs-right'>
-                <div className="joinUs-img">
-                    <Image 
-                        src={img1} 
-                    />
-                </div>
+                <img src={img1.src} alt="" loading="lazy"/>
             </div>
         </div>
         </div>

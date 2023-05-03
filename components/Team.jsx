@@ -19,7 +19,13 @@ const Team = () => {
 
   return (
     <>
-        <div id="team">
+        <div className="m-bottom">
+            <div className="container">
+                Здесь будет команда, которая уже сверстана
+            </div>
+        </div>
+        
+        {/* <div id="team">
         <div className="container team-block">
             <div className="h2">Наша команда</div>
             <div className='flex team-flex'>
@@ -36,7 +42,7 @@ const Team = () => {
                     <div className='team-post'>Технический директор</div>
                     <div className='team-name'>Федор Петров</div>
                     <div className='team-mail' ><a href="mailto:petrov@zaga-game.com">petrov@zaga-game.com</a></div>
-                </div> */}
+                </div> * /}
                 <div className='flex-item team-item'>
                     <div className='team-img'>
                         <Image src={img2} quality={100} />
@@ -55,7 +61,7 @@ const Team = () => {
                 </div>
             </div>
         </div>
-        </div>
+        </div> */}
     </>
   )
 }
